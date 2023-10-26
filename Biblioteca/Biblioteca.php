@@ -16,7 +16,6 @@
                     <li>Tipo de libro</li>
                     <li>Registro</li>
                     <li>Acceder</li>
-                    <li>Acerca de</li>
                 </ul>
             </div>
             
