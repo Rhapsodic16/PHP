@@ -1,0 +1,17 @@
+.BarraHerramientas{
+    height: 81px; 
+    position: Top; 
+    background: rgba(64.44, 208.45, 41, 0.66);
+}
+
+.Herramientas{
+    list-style: none;
+    right: 10px;
+    position: right; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
