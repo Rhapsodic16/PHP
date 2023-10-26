@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Inicio.css">
-    <title>Document</title>
+    <title>Biblioteca</title>
 </head>
 <body>
     <div style="width: 100%; height: 100%; position: relative; background: white">
