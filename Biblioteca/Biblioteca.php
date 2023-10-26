@@ -9,6 +9,7 @@
 <body>
     <div style="width: 100%; height: 100%; position: relative; background: white">
         <div style="" CLASS="BarraHerramientas">
+            <div style="width: 55px; height: 55px; left: 27px; top: 17px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
             <div style="" CLASS="Herramientas">
                 <ul>
                     <li>Inicio</li>
@@ -19,7 +20,7 @@
             </div>
             
         </div>
-        <div style="width: 55px; height: 55px; left: 27px; top: 17px; position: absolute; background: #D9D9D9; border-radius: 9999px"></div>
+        
         <div style="width: 1266px; height: 59px; left: 54px; top: 129px; position: absolute; background: #E8DFDF; border-top-left-radius: 10px; border-top-right-radius: 10px"></div>
         <div style="width: 78px; height: 59px; left: 1317px; top: 129px; position: absolute; background: #33DA9E; border-top-left-radius: 10px; border-top-right-radius: 10px"></div>
         <div style="width: 38px; height: 38px; left: 1331px; top: 139px; position: absolute; background: rgba(217, 217, 217, 0); box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 9999px; border: 3px #ECE0E0 solid"></div>
