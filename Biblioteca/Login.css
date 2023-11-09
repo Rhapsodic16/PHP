@@ -1,0 +1,77 @@
+*{
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(116deg, rgba(64.44, 208.45, 41, 0.66) 0%, rgba(38.83, 231.82, 162.49, 0.66) 51%, rgba(202.86, 126.39, 238.85, 0.66) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+form {
+    width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgba(217, 217, 217, 0.61);
+    border: none;
+    border-radius: 20px;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-weight: 350;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    border: none;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(217, 217, 217, 0.61);
+    border-radius: 10px;
+}
+
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgba(185.24, 81.84, 202.07, 0.67);
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    width: 175px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+button:hover{
+    background-color: rgba(38.83, 231.82, 162.49, 0.66);
+    color: #000000;
+}
+
+button:hover::after {
+    transition: background-color 350ms;
+    transition: color 300ms;
+}
