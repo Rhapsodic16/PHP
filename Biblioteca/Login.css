@@ -1,5 +1,5 @@
 *{
-    font-family: "Lato", sans-serif;
+    font-family: Inter;
     box-sizing: border-box;
 }
 
@@ -37,6 +37,8 @@ h1 {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    font-size: 32px;
+    font-weight: 400;
 }
 
 input {
@@ -53,6 +55,15 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.crearCuenta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
 button {
@@ -71,7 +82,14 @@ button:hover{
     color: #000000;
 }
 
-button:hover::after {
-    transition: background-color 350ms;
-    transition: color 300ms;
+a {
+    text-decoration: none;
+    color:#000000;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(185.24, 81.84, 202.07, 0.67);
 }
