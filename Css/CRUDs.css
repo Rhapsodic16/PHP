@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter;
+}
+
+
+.barraHerramientas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(111, 231, 93);
+    box-shadow: 0 6px 25px -22px #000000;
+    z-index: 2;
+}
+
+.contenido {
+    padding-left: 10px;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    height: 70px;
+}
+
+.menu nav{
+    height: 100%;
+}
+
+.menu nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.menu nav ul li{
+    height: 100%;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.menu nav ul li a {
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+.seleccionado:before{
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: rgba(185.24, 81.84, 202.07, 0.67);
+    position: absolute;
+    top: 66px;
+    left: 0;
+}
+
+.menu .itemSeleccionado {
+    color:  rgba(185.24, 81.84, 202.07, 0.67);
+}
+
+.menu nav ul li a:hover{
+    color: rgba(185.24, 81.84, 202.07, 0.67);
+    transition: color 250ms;
+}
+
+body{
+    font-family: Inter;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+h2{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla{
+    width: 100%; 
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color:rgba(185.24, 81.84, 202.07, 0.67);
+}
+
+.tabla tr td .botonEditar {
+    margin: 3px;
+    padding: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #33DA9E;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.tabla tr td .botonBorrar {
+    margin: 3px;
+    padding: 5px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: #e36c6c;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.tabla tr td .botonEditar:hover {
+    background-color: rgba(185.24, 81.84, 202.07, 0.67);
+    color: #000000;
+}
+
+.tabla tr td .botonBorrar:hover {
+    background-color: rgb(228, 13, 13);
+    color: #000000;
+}
+
+.MeterDatos {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center; 
+}
+
+.Ingresar {
+    width: 150px; 
+    padding: 10px;
+    background-color: rgb(111, 231, 93);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 300ms;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Ingresar:hover {
+    background-color: rgba(185.24, 81.84, 202.07, 0.67);
+    color: #ffffff;
+}
+
+
+.contenedorBuscador {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    width: 100%;
+    background-color: #E8DFDF;
+    display: inline-block;
+}
+
+button { 
+    background-color: #33DA9E;
+    padding: 10px;
+    border: 0;
+    width: 40px;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: rgba(185.24, 81.84, 202.07, 0.67);
+    transition: background-color 300ms;
+}
